@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#webgl-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+#shift-scene-button {
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10%;
+  color: rgba(255, 255, 255, 0.648);
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#shift-scene-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
